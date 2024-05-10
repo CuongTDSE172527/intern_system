@@ -4,6 +4,7 @@ import App from "./App.jsx";
 import "./index.css";
 import { BrowserRouter } from "react-router-dom";
 import PasswordReset from '/src/pages/PasswordReset.jsx';
+import OTPVerify from "./pages/OTPVerify.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
@@ -14,3 +15,4 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 );
 
 ReactDOM.render(<PasswordReset />, document.getElementById('root'));
+ReactDOM.render(<OTPVerify />, document.getElementById('root'));

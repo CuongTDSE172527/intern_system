@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import PasswordReset from "./pages/PasswordReset.jsx";
 import "./App.css";
-
+import OTPVerify from "./pages/OTPVerify.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
           <Route path="/pwdreset" element={<PasswordReset />} />
+          <Route path="/OTPVerify" element={<OTPVerify />} />
       </Routes>
     </>
   );
