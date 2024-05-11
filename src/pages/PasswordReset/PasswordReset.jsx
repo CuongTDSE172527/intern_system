@@ -1,6 +1,7 @@
 import * as React from "react";
 import "./PasswordReset.css";
-function Header() {
+import Header from "../../components/header/Header.jsx";
+/*function Header() {
     return (
         <header className="header">
             <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/06fef8db57203c153c3c74e48930f491ad41ebc2dc7c06a9bab2ea38540e008e?apiKey=41832340d6f545c2a0509736ad9e1693&" alt="Company Logo" className="logo" />
@@ -11,7 +12,7 @@ function Header() {
             </div>
         </header>
     );
-}
+}*/
 
 function ResetPasswordForm() {
     return (

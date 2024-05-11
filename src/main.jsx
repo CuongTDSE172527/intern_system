@@ -3,8 +3,8 @@ import ReactDOM, {createRoot} from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
 import { BrowserRouter } from "react-router-dom";
-import PasswordReset from '/src/pages/PasswordReset.jsx';
-import OTPVerify from "./pages/OTPVerify.jsx";
+import PasswordReset from '/src/pages/PasswordReset/PasswordReset.jsx';
+import OTPVerify from "./pages/OTPVerify/OTPVerify.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>

@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-import PasswordReset from "./pages/PasswordReset.jsx";
+import PasswordReset from "./pages/PasswordReset/PasswordReset.jsx";
 import "./App.css";
-import OTPVerify from "./pages/OTPVerify.jsx";
+import OTPVerify from "./pages/OTPVerify/OTPVerify.jsx";
 
 function App() {
   const [count, setCount] = useState(0);

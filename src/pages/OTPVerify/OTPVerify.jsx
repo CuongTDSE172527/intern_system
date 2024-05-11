@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./OTPVerify.css";
-
+import Header from "../../components/header/Header.jsx";
 class OTPVerify extends Component {
     constructor(props) {
         super(props);
@@ -47,29 +47,7 @@ class OTPVerify extends Component {
 
         return (
             <div className="otp-verification-page">
-                <header className="header">
-                    <img
-                        loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/06fef8db57203c153c3c74e48930f491ad41ebc2dc7c06a9bab2ea38540e008e?apiKey=41832340d6f545c2a0509736ad9e1693&"
-                        className="logo"
-                        alt="Company logo"
-                    />
-                    <div className="language-selector">
-                        <img
-                            loading="lazy"
-                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/ed3550ad056d60b4375fcbb86733c2b3eb54425ccccc2358fcad0c028c501dc1?apiKey=41832340d6f545c2a0509736ad9e1693&"
-                            className="flag"
-                            alt="Selected language flag"
-                        />
-                        <div className="language-code">EN</div>
-                        <img
-                            loading="lazy"
-                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/a326793c32f80a36ac6330d1928371e514061297d7019f70fbbb44325a991a27?apiKey=41832340d6f545c2a0509736ad9e1693&"
-                            className="dropdown-icon"
-                            alt="Language dropdown icon"
-                        />
-                    </div>
-                </header>
+                <Header/>
                 <main className="main-content">
                     <div className="content-wrapper">
                         <section className="verification-section">
