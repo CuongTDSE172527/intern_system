@@ -23,7 +23,6 @@ function ResetPasswordForm() {
             </p>
             <label htmlFor="email" className="input-label">
                 Email
-            </label>
             <div className="input-wrapper">
                 <input
                     type="email"
@@ -34,6 +33,7 @@ function ResetPasswordForm() {
                 />
                 <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/f8bc642fc8af17f8c6afa0d9222189edfb7bd77d18ba9728c2122351ffa3385c?apiKey=41832340d6f545c2a0509736ad9e1693&" alt="Email Icon" className="input-icon" />
             </div>
+            </label>    
             <p className="form-note">
                 We will send you an email that will allow you to reset your password.
             </p>
