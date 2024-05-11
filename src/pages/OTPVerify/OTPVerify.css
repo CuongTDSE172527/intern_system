@@ -4,6 +4,7 @@
     flex-direction: column;
     margin: auto;
     width: 95vw; /* Set to 100vw to fill up the viewport */
+    padding: 0 65px;
 }
 
 @media (max-width: 991px) {
@@ -67,8 +68,10 @@
 }
 
 .content-wrapper {
-    display: flex;
-    gap: 20px;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 40% 55%;
+        gap: 20px;
 }
 
 @media (max-width: 991px) {
@@ -82,7 +85,7 @@
     display: flex;
     flex-direction: column;
     line-height: normal;
-    width: 35%;
+    /* width: 35%; */
 }
 
 @media (max-width: 991px) {
@@ -164,7 +167,7 @@
     display: flex;
     flex-direction: column;
     line-height: normal;
-    width: 65%;
+    /* width: 65%; */
     margin-left: 20px;
 }
 

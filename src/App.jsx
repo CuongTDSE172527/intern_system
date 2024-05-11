@@ -6,8 +6,6 @@ import "./App.css";
 import OTPVerify from "./pages/OTPVerify/OTPVerify.jsx";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <Routes>
